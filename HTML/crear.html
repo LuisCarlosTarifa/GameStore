@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../IMG/Logo.png">
+    <title>Crear Cuenta</title>
+</head>
+<!--Color logo: #380098-->
+<!--Color logo invertido: #C7FF67-->
+<!--Color2: #eaeaea-->
+<!--Color3: #181818-->
+<body class="h-[100vh] flex justify-center items-center bg-gradient-to-r from-[#380098] to-blue-500">
+    
+    <section class="animate__animated animate__backInDown flex min-h-full flex-col justify-center items-center px-6 py-12 lg:px-8">
+        
+        <div class="px-12 py-6 w-[400px] rounded-3xl bg-white shadow-xl shadow-[#38009833] bg-opacity-75 backdrop-blur" >
+            
+            <div>
+                <img class="mx-auto h-10 w-auto" src="../IMG/juego.png" alt="">
+                <h2 class=" text-center text-2xl font-bold leading-9 tracking-tight text-[#380098]">
+                    Crear Cuenta 
+                </h2>
+            </div>
+    
+            <div class="mt-2">
+                <form class="space-y-6" action="#" method="POST">
+                    <div>
+                        <label for="name" class="block text-sm font-medium leading-6 text-[#380098]">Nombres</label>
+                        <div class="mt-2">
+                            <input id="name" name="name" type="text" required class="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-[#380098] sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="surname" class="block text-sm font-medium leading-6 text-[#380098]">Apellidos</label>
+                        <div class="mt-2">
+                            <input id="surname" name="surname" type="text" required class="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-[#380098] sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium leading-6 text-[#380098]">Correo</label>
+                        <div class="mt-2">
+                            <input id="email" name="email" type="email" autocomplete="email" required class="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-[#380098] sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="password" class="block text-sm font-medium leading-6 text-[#380098]">Contraseña</label>
+                        <div class="mt-2">
+                            <input id="password" name="password" type="password" autocomplete="new-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-[#380098] sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="confirm_password" class="block text-sm font-medium leading-6 text-[#380098]">Confirmar Contraseña</label>
+                        <div class="mt-2">
+                            <input id="confirm_password" name="confirm_password" type="password" autocomplete="new-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-[#380098] sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button type="submit" class="py-5 px-6 rounded-2xl border-2 border-[#380098] bg-[#380098]  text-white flex justify-center items-center px-3 h-8 hover:bg-white hover:text-[#380098] font-medium ">Crear Cuenta</button>
+                    </div>
+                </form>
+    
+                <p class="mt-10 text-center text-sm text-black">
+                    ¿Ya tienes una cuenta?
+                    <a href="../HTML/login.html" class="font-semibold leading-6 text-black hover:text-[#380098]">Iniciar Sesión</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
